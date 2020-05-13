@@ -4,10 +4,10 @@ This script runs a simple multiple-object-tracking task, with an unexpected obje
 
 The following variables can be changed to immediately alter the appearance or behavior of the script:
 
-`background_color` (line 364): This sets the background color for the actual trials. You can replace this with [any of the color names on this list](https://htmlcolorcodes.com/color-names/).
-`fixation_color` (line 365): This sets the color for the fixation cross. You can replace it with any valid color name to change it.
-`num_objects` (line 366): How many objects total in the task. Should be a multiple of the number of distinct object groups you want.
-`object_colors` (line 367): The colors for the objects. Can be any valid color name. You need to have as many colors as you have objects, but you can use as many colors as you like.
+`background_color` (line 364): This sets the background color for the actual trials. You can replace this with [any of the color names on this list](https://htmlcolorcodes.com/color-names/).  
+`fixation_color` (line 365): This sets the color for the fixation cross. You can replace it with any valid color name to change it.  
+`num_objects` (line 366): How many objects total in the task. Should be a multiple of the number of distinct object groups you want.  
+`object_colors` (line 367): The colors for the objects. Can be any valid color name. You need to have as many colors as you have objects, but you can use as many colors as you like.  
 `object_size` (line 368): The size of each object, in pixels. For square objects this is the length of a side; for circles, they'll have a radius 75% as large.
 `object_shapes` (line 369): The shape of each object. You need as many shapes as you have objects. Currently only circles and squares are supported.
 `trial_duration` (line 370): The length of each trial, in seconds.
