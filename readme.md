@@ -1,4 +1,4 @@
-This script runs a simple multiple-object-tracking task, with an unexpected object on the final trial.
+This script runs a simple inattentional blindness experiment with a multiple-object-tracking task as the primary task, with an unexpected object that appears on the final trial.
 
 ## Quick Customization
 
